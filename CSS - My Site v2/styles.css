@@ -1,0 +1,69 @@
+.gradient-background {
+    background: linear-gradient(300deg, #cdffd8, #94b9ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  .solid-background {
+    background-color: #f3f5f9;
+  }
+  .dashed-line {
+    color: #0dcaf0;
+  }
+  .sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+   .holder img {
+    height: 100%;
+    width: 100%;
+    border-radius: 21px 21px 0 0;
+   object-fit: fill; 
+  }
+
+  #about-me{
+    padding: 10dvh 10dvh 10dvh 10dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  #resume {
+    padding-top: 10dvh;
+    padding-bottom: 10dvh;
+  }
+  #contact {
+    display: grid;
+    gap: 9px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    height: 300px;
+    margin-bottom: 0px;
+    padding: 10dvh 10dvh 10dvh 10dvh;
+  }
+  .contact-me {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .reach-out {
+    grid-area: 2 / 1 / 3 / 2;
+    max-width: fit-content;
+    text-align: justify;
+  }
+  .headshot {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .email-me {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1, span {
+    font-family: "Sacramento", cursive;
+  }
+
+  ul{
+    list-style-type: none;
+  }
